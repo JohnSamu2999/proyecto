@@ -38,16 +38,31 @@
          <title>Tabla de Amigos</title>
     <style>
         table {
-            background-color: #8cdfda; 
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            border: 2px solid #5B2C6F;
+            background-color: #76D7C4; 
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd; 
         }
         th {
-            background-color: #8cd2df;
-
-       
+            background-color: #5b2c6f;
+            color: white;
+        }
+        td input {
+            width: 100%;
+        }
+        td img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
         }
     </style>
 </head>
-<body>
 
     <h2 style="text-align: center;">Información de Amigos</h2>
 
@@ -58,7 +73,7 @@
             <th>Foto</th>
         </tr>
         <tr>
-            <td><input type="text" name="nombre" placeholder="Ian Contreras"></td>
+            <td>"juanito"</td>
             <td><input type="number" name="edad" placeholder="17"></td>
             <td><input type="file" name="foto" accept="ingresa imagen"></td>
         </tr>
